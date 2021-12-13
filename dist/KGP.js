@@ -75,6 +75,32 @@ function getAmountFromFormatted(formatted){
 			return amount*1000;
 		case 'M':
 			return amount*1000000;
+		case 'G':
+		    return amount*1000000000;
+		case 'T':
+		    return amount*1000000000000;
+		case 'P':
+		    return amount*1000000000000000;
+		case 'E':
+		    return amount*1000000000000000000;			
+		case 'Z':
+		    return amount*1000000000000000000000;	
+		case 'Y':
+		    return amount*1000000000000000000000000;
+		case 'U':
+		    return amount*1000000000000000000000000000;
+		case 'S':
+		    return amount*1000000000000000000000000000000;
+		case 'H':
+		    return amount*1000000000000000000000000000000000;
+		case 'F':
+		    return amount*1000000000000000000000000000000000000;
+		case 'L':
+		    return amount*1000000000000000000000000000000000000000;
+		case 'W':
+		    return amount*1000000000000000000000000000000000000000000;
+		case 'Q':
+		    return amount*1000000000000000000000000000000000000000000000;			
 		default:
 			return 0;
 	}
